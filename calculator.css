@@ -1,9 +1,115 @@
+/* General */
 body {
-	font-family: sans-serif;
+	font-family: Arial;
 }
 body * {
 	box-sizing: border-box;
 }
-ul li {
-	margin-bottom: 10px;
+.compound-calc {
+	float: left;
+	width: 50%;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-right: 5px solid;
+}
+h1 {
+	font-size: 32px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 32px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	color: #40845B;
+}
+.descriptions {
+	margin-bottom: 143px;
+}
+.definitions {
+	font-size: 12pt;
+	margin-bottom: 14pt;
+}
+
+/* Forms */
+.input-label1 {
+	color: #4C6CD3;
+	font-size: 13pt;
+	font-weight: bold;
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-bottom: 5pt;
+}
+.input-label {
+	font-weight: bold;
+	font-size: 13pt;
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-bottom: 5pt;
+}
+input {
+	border: 1.2px solid;
+	padding: 4px;
+	font-size: 13pt;
+}
+.invis {
+	visibility: hidden;
+}
+button {
+	background-color: black;
+	color: white;
+	font-size: 13pt;
+	border-color: black;
+	margin-left: 268px;
+	padding: 4px 8px 4px 8px;
+}
+
+/* Results */
+.results {
+	float: right;
+	width: 50%;
+	padding-left: 25px;
+	padding-right: 23px;
+}
+.result-label1 {
+	color: #40845B;
+	font-size: 13pt;
+	font-weight: bold;
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-bottom: 23pt;
+	margin-top: 55px;
+}
+.result-label3 {
+	color: #C6C34A;
+	font-size: 13pt;
+	font-weight: bold;
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-bottom: 23pt;
+}
+.result-label4 {
+	color: #4C6CD3;
+	font-size: 13pt;
+	font-weight: bold;
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-bottom: 25pt;
+}
+.result-val final-val {
+	font-size: 13pt;
+	margin-bottom: 20pt;
+}
+.result-val return-val {
+	font-size: 13pt;
+	margin-bottom: 20pt;
+}
+.result-val contribution-val {
+	font-size: 13pt;
+	margin-bottom: 20pt;
 }
